@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "packageName": "ru.sylauncher",
+  "versionCode": 4,
+  "versionName": "0.4.0",
+  "minSdk": 30,
+  "apkUrl": "https://github.com/semperthY/SYLauncher-Updates/releases/download/v0.4.0/app-release.apk",
+  "changes": "# SYLauncher 0.4.0 (versionCode 4)\n\n- Постоянный источник OTA: https://raw.githubusercontent.com/semperthY/SYLauncher-Updates/main/update.json. Ручное изменение адреса сохранено.\n- Проверка, загрузка с прогрессом, проверка SHA-256/пакета/версии/подписи и стандартный установщик Android. Отмена и ошибки не выдаются за успешную установку.\n- Стабильный фокус пульта, явные состояния, защита от повторных и параллельных загрузок, повторная проверка после возврата из настроек разрешений.\n- Подписанные APK в публичном SYLauncher-Updates; манифест schema 1 совместим с клиентом 0.3.0.\n- Автоматическая публикация APK перед манифестом, анонимная проверка HTTPS, запрет отката и замены уже опубликованной версии.\n- Настройки, домашний экран, категории, избранное, VPN, погода и таймер не меняются.\n",
+  "sha256": "a0d77d15e41ad49b34518c547e39115ede547ed62135a841fc644735ff6a2afd",
+  "sizeBytes": 1456324,
+  "signerSha256": "12a455493573feaaad9a645e98970c14d139aa497ed1f7642662b2091ea48e14"
+}
